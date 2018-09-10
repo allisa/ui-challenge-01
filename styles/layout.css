@@ -1,0 +1,113 @@
+.header {
+  width: 960px;
+  height: 100px;
+}
+
+.a {
+  background-color: aqua;
+  width: 480px;
+  height: 75px;
+}
+.b {
+  background-color: aquamarine;
+  width: 480px;
+  height: 125px;
+}
+.c {
+  background-color: blue;
+  width: 480px;
+  height: 125px;
+}
+.d {
+  background-color: blueviolet;
+  width: 480px;
+  height: 125px;
+}
+.e {
+  background-color: green;
+  width: 240px;
+  height: 250px;
+}
+.f {
+  background-color: yellow;
+  width: 240px;
+  height: 250px;
+}
+.g {
+  background-color: pink;
+  width: 240px;
+  height: 250px;
+}
+.h {
+  background-color: gray;
+  width: 240px;
+  height: 250px;
+}
+.flex-e-f, .flex-g-h {
+  display: flex;
+}
+.i {
+  background-color: rgb(98, 98, 180);
+  width: 480px;
+  height: 80px;
+}
+
+@media (min-width: 760px) {
+  .a {
+    background-color: rgb(236, 65, 222);
+    width: 960px;
+    height: 100px;
+    vertical-align: middle;
+  }
+  .desktop-view-flex {
+    display: flex;
+  }
+  .desktop-flex-c-d {
+    display: flex;
+  }
+  .b {
+    background-color: orange;
+    width: 200px;
+    height: 600px;
+  }
+  .c {
+    background-color: red;
+    width: 380px;
+    height: 200px;
+  }
+  .d {
+    background-color: rgb(40, 221, 40);
+    width: 380px;
+    height: 200px;
+  }
+  .e {
+    background-color: lightskyblue;
+    width: 190px;
+    height: 250px;
+  }
+  .f {
+    background-color: rgb(135, 250, 221);
+    width: 190px;
+    height: 250px;
+  }
+  .g {
+    background-color: rgb(255, 174, 255);
+    width: 190px;
+    height: 250px;
+  }
+  .h {
+    background-color: rgb(182, 46, 53);
+    width: 190px;
+    height: 250px;
+  }
+  .i {
+    background-color: teal;
+    width: 760px;
+    height: 150px;
+  }
+  .e-h-flex {
+    display: flex;
+  }
+
+
+}
