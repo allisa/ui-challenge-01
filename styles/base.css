@@ -1,4 +1,14 @@
 body {
   font-family: sans-serif;
   font-size: 1.5em;
+  text-align: center;
+}
+.all-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.vertically-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
