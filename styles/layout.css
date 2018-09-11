@@ -55,7 +55,7 @@
 @media (min-width: 760px) {
   .a {
     background-color: rgb(236, 65, 222);
-    width: 960px;
+    width: 100%;
     height: 100px;
     vertical-align: middle;
   }
